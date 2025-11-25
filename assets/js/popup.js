@@ -201,7 +201,7 @@
 })();
 (function(){
   const path = window.location.pathname;
-  const isHome = /(^\/$|lander\$)/.test(path);
+  const isHome = /(^\/$|lander$)/.test(path);
   if (!isHome) return;
 
   // Theme tokens
